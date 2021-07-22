@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Tarea Clase 2</title>
+
+</head>
+<body>
+  
+  <form onsubmit="enviar(event)">
+    
+      <label for="name">Nombre: </label>
+      <input id="name" name="name" type="text" placeholder="Ingrese nombre">
+      
+      <label for="fecha">Fecha de Nacimiento: </label>
+      <input id="fecha" name="fecha" type="date">
+      
+      <label for="rut">RUT: </label>
+      <input id="rut" name="rut" type="text" placeholder="Ingrese rut">
+      
+      <label for="direccion">Dirección: </label>
+      <input id="direccion" name="direccion" type="text" placeholder="Ingrese dirección">
+
+    <button style="margin-top: 15px;" type="submit">Enviar</button>
+
+  </form>
+  <hr>
+  <div>
+    <textarea name="area" id="area" cols="30" rows="10"></textarea>
+  </div>
+  
+  <script type="text/javascript">
+    function enviar(event) {
+      event.preventDefault();
+      document.getElementById('area').innerHTML = 'Hola ' + document.getElementById('name').value ;
+         
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+body {
+  background-color: #f6f7fa;
+  margin: 20px;
+}
+
+form input {
+  width: 300px;
+  height: 20px;
+  background-color: rgb(193, 248, 156);
+  display: inline-block;
+  cursor: pointer;
+}
+
+input:hover {
+  background-color: snow;
+}
+
+form label {
+  margin: 10px;
+  font-style: italic;
+  font-weight: bold;
+  width: 150px;
+  display: inline-block;
+}
+
+#area {
+  margin-top: 20px;
+  width: 300px;
+  height: 50px;
+  resize: none;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  font-size: 20px;
+}
+
+div {
+  margin: 10px;
+}
+
+form {
+  width: 500px;
+  margin-top: 50px;
+}
+
+form button {
+  display: block;
+  width: 100px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: #000;
+  color: #fff;
+}
