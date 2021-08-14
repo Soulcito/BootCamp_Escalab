@@ -1,0 +1,150 @@
+@media only screen and (min-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  header,
+  nav,
+  section {
+    display: block;
+  }
+
+  .header {
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/diseño.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .container {
+    background-color: transparent;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .container:hover {
+    background-color: black;
+    transition: 0.4s all ease;
+  }
+
+  a {
+    text-decoration: none;
+    outline: none;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0px 50px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: 0.4s all ease-in-out;
+  }
+
+  .link {
+    color: white;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 50px 0px 0px;
+  }
+
+  #banner {
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    box-shadow: 0px 3px 3px 0px rgba(255, 255, 255, 0.1);
+  }
+
+  #banner:hover {
+    transform: scale(0.95);
+  }
+
+  .image {
+    width: 100%;
+    height: 700px;
+  }
+
+  .section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image-section {
+    width: 30%;
+    padding: 100px 10px;
+  }
+
+  .section-image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .image-description {
+    width: 60%;
+    padding: 100px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .h1-title {
+    padding: 5px 20px 5px 20px;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .h2-title {
+    padding: 10px 20px 40px 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .p {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .a {
+    padding: 20px;
+    font-weight: bold;
+  }
+}
