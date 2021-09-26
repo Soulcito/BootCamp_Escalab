@@ -1,0 +1,253 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.myNav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.myContacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 80px;
+}
+
+.myItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding-left: 40px;
+}
+
+.Items {
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.Items > a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.Items:hover {
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.6s all ease;
+}
+
+.icon {
+  margin-right: 20px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.github {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgBanner {
+  width: 100%;
+  max-height: 400px;
+}
+
+.title-1 {
+  color: darkorange;
+  font-size: 20px;
+}
+
+.title-2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.title-3 {
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+}
+.title-4 {
+  width: 90%;
+  font-weight: lighter;
+  font-size: 18px;
+  text-align: left;
+  line-height: 30px;
+  margin-left: 30px;
+}
+
+.title-5 {
+  width: 90%;
+  font-weight: bolder;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.title-6 {
+  font-weight: bolder;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+#aboutMe {
+  width: 70% !important;
+  background-color: white;
+}
+
+.fifty {
+  width: 50%;
+}
+
+#aboutMeImg {
+  width: 80%;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+#myServices {
+  width: 70% !important;
+}
+
+#myServicesImg {
+  width: 80%;
+}
+
+#myFeaturedSkills {
+  width: 70% !important;
+}
+
+#mySkillImg {
+  width: 80%;
+}
+
+.card-container {
+  width: 300px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.3px solid rgba(0, 0, 0, 0.1);
+  padding: 40px 5px;
+  margin: 10px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.4s all ease-in-out;
+}
+
+.card-container:hover {
+  cursor: pointer;
+  transform: scale(0.95);
+}
+
+.p-title {
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 10px 0px 0px 0px;
+  margin-top: 20px;
+}
+
+.p-descripcion {
+  font-weight: lighter;
+  font-size: 14px;
+  padding: 10px 10px 10px 20px;
+  margin-top: 10px;
+}
+
+.p-img {
+  width: 200px;
+  max-height: 100px;
+}
+
+.p-link {
+  text-decoration: none;
+  color: black;
+}
+
+#myTecnologies {
+  align-items: flex-start;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1279px) {
+  #myTecnologies {
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+}
+
+.phone,
+.email {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#alert_nameEmail,
+#alert_subject,
+#alert_message {
+  display: none;
+  width: 95% !important;
+}
+
+#contactMe {
+  width: 70% !important;
+}
+
+#contactPart {
+  width: 40% !important;
+}
+
+#formPart {
+  width: 60% !important;
+  justify-content: flex-start !important;
+}
+
+#buttonPart {
+  justify-content: flex-end !important;
+}
+
+#buttonMessage {
+  width: 20%;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgb(64, 134, 226);
+  color: white;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 12px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#buttonMessage:hover {
+  cursor: pointer;
+  transform: scale(0.95);
+}
+
+#message {
+  resize: none;
+}

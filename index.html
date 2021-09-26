@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/login-desk.css">  
+  <script src="./js/login.js"></script>
+  <title>Login</title>
+</head>
+<body>
+   <div class="log-container">
+       <div class="log-image">
+          <img id="logImage" src="/assets/1.jpg" alt="log_image">   
+       </div>
+       <div class="loging-container">
+          <div class="input">
+              <div class="input-detail">
+                <label for="user" class="ml-4">User:</label>
+                <input class="Input mr-4" type="text" id="user" name="user" placeholder="Usuario es admin">
+              </div>
+              <div class="alert ml-4 mr-4" id="alertUser">User input is required</div>
+          </div>
+          <div class="input">
+            <div class="input-detail">
+              <label for="password" class="ml-4">Password:</label>
+              <input class="Input mr-4" type="password" id="password" name="password" placeholder="Password is 123456">
+            </div>
+            <div class="alert ml-4 mr-4" id="alertPassword">Password input is required</div>
+          </div>          
+          <div class="input">
+            <div class="input-detail">
+              <button class="ml-4 mr-4" id="loginBtn" type="button" onclick="handleLogin()">Login</button>
+            </div>
+            <div class="alert ml-4 mr-4" id="userPassInvalid">User or Password are invalid</div>
+          </div>
+       </div>
+   </div>
+   <a id="link" href="myPage.html"></a>
+</body>
+</html>

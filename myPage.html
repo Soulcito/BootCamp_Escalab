@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/myPage.css">
+  <title>My Page</title>
+</head>
+<body>
+   <nav class="myNav">
+      <div class="myLinks">
+         <ul class="myItems">
+           <li class="Items"><a href="#aboutMe">About Me</a></li>           
+           <li class="Items"><a href="#myServices">My Services</a></li>
+           <li class="Items"><a href="#myFeaturedSkills">My Featured Skills</a></li>
+           <li class="Items"><a href="#contactMe">Contact Me</a></li>
+         </ul>
+      </div>
+      <div class="myContacts">
+         <a target="_blank" href="https://www.facebook.com/fepipe82"><img class="icon" src="./assets/facebook.png" alt="facebook_icon"></a>      
+         <a target="_blank" href="https://www.linkedin.com/in/felipehinojosafernandez/"><img class="icon" src="./assets/linkedin.png" alt="linkedin_icon"></a>        
+         <a target="_blank" href="https://github.com/Soulcito">
+          <div class="github icon">
+            <img src="./assets/github.png" alt="github_icon">
+          </div>        
+        </a>
+      </div>
+   </nav>
+   <div id="aboutMe" class="container-row mt-6">
+     <div class="container-col fifty">
+       <span id="aboutMe_title1" class="title-1 mt-2"></span>
+       <span id="aboutMe_title2" class="title-2 mt-2"></span>
+       <span id="aboutMe_title3" class="title-3 mt-2"></span>
+       <span id="aboutMe_title4" class="title-4 mt-6"></span>
+     </div>
+     <div class="container-col fifty mt-2">
+       <img id="aboutMeImg" src="/assets/3.jfif" alt="aboutMeImage">
+     </div>
+   </div>
+   <div id="myServices" class="container-row mt-6">
+     <div class="container-col fifty">
+        <img id="myServicesImg" src="/assets/4.jfif" alt="myServicesImage">
+     </div>
+     <div class="container-col fifty">
+        <span id="myServices_title1" class="title-1 mt-2"></span> 
+        <span id="myServices_title3" class="title-3 mt-2"></span> 
+        <span id="myServices_title4" class="title-4 mt-2"></span> 
+        <span id="myServices_title5" class="title-5 mt-6"></span> 
+        <span id="myServices_title6" class="title-5 mt-2"></span> 
+        <span id="myServices_title7" class="title-5 mt-2"></span> 
+        <span id="myServices_title8" class="title-5 mt-2"></span> 
+     </div>
+   </div>
+   <div id="myFeaturedSkills" class="container-row mt-6">
+     <div class="container-col fifty">
+        <span id="myFeaturedSkills-title1" class="title-1 mt-2"></span> 
+        <span id="myFeaturedSkills-title3" class="title-3 mt-2"></span> 
+        <span id="myFeaturedSkills-title4" class="title-4 mt-2"></span> 
+        <span id="myFeaturedSkills-title6" class="title-6 mt-4"></span> 
+     </div>
+     <div class="container-col fifty">
+       <img id="mySkillImg" src="/assets/5.png" alt="mySlikkImage">
+     </div>
+   </div>
+   <div id="myTecnologies" class="container-row mt-6"></div>
+   <div id="contactMe" class="container-col mt-6 mb-6">
+      <div class="container-col mb-6">
+         <span id="contactMe-title1" class="title-1 mt-2"></span>
+         <span id="contactMe-title3" class="title-3 mt-2"></span>
+         <span id="contactMe-title4" class="title-4 mt-2 text-center"></span>
+      </div>
+      <div class="container-row mb-6">
+         <div id="contactPart" class="container-col mb-6 mt-6">
+            <span id="contactMe-title5" class="title-4 mt-2"></span>
+            <div class="container-row mt-6">
+              <img src="/assets/phone.png" alt="phone" class="ml-6">
+              <span id="phone" class="phone mt-2 ml-2"></span>
+            </div>
+            <div class="container-row mt-6">
+              <img src="/assets/email.png" alt="email" class="ml-6">
+              <span id="email" class="email mt-2 ml-2"></span>
+            </div>
+         </div>
+         <div id="formPart" class="container-col mb-6 mt-6">
+            <div class="input">
+               <div class="input-detail">
+                  <input class="Input ml-4" type="text" id="contactName" placeholder="Name">
+                  <input class="Input ml-2 mr-4" type="text" id="contactEmail" placeholder="Email">
+               </div>
+                 <div class="alert ml-4 mr-4" id="alert_nameEmail">Name and Email are required</div>
+            </div>
+            <div class="input">
+              <div class="input-detail">
+                 <input class="Input ml-4 mr-4" type="text" id="subject" placeholder="Subject">
+              </div>
+                <div class="alert ml-4 mr-4" id="alert_subject">Subject are required</div>              
+            </div>            
+            <div class="input mt-6">
+              <div class="input-detail">
+                <textarea class="Input ml-4 mr-4 mb-4 mt-4" name="message" id="message" placeholder="Message" cols="30" rows="5"></textarea>
+              </div>           
+                <div class="alert ml-4 mr-4 mt-4" id="alert_message">Message are required</div>              
+            </div>
+            <div class="input mt-6">
+              <div id="buttonPart" class="input-detail">
+                <button id="buttonMessage" class="mr-4" onclick="handleContact()">Send Message</button>
+              </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="/js/myPage.js"></script>
+</body>
+</html>

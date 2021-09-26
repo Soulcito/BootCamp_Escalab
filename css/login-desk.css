@@ -1,0 +1,112 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.log-container {
+  width: 50%;
+  min-height: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.4s all ease-in-out;
+}
+
+.log-image {
+  width: 50%;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logImage {
+  width: 100%;
+  min-height: 320px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  transition: 0.4s all ease-in;
+}
+
+@media only screen and (max-width: 1279px) {
+  .log-container {
+    flex-direction: column !important;
+    width: 80% !important;
+  }
+
+  #logImage {
+    border-radius: 15px !important;
+    margin-top: 20px;
+  }
+}
+
+.loging-container {
+  width: 50%;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  transition: 0.4s all ease-out;
+}
+
+#loginBtn {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgb(54, 189, 36);
+  color: white;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#loginBtn:hover {
+  cursor: pointer;
+  transform: scale(0.98);
+}
+
+#alertUser {
+  display: none;
+}
+
+#alertPassword {
+  display: none;
+}
+
+#userPassInvalid {
+  display: none;
+}
+
+#link {
+  display: none;
+}
+
+#user,
+#password {
+  width: 70% !important;
+}
+
+#alertUser,
+#alertPassword,
+#userPassInvalid {
+  width: 92% !important;
+}
