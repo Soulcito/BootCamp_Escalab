@@ -88,7 +88,7 @@ var contactMe = {
   title3: `Are you ready to work together?`,
   title4: `Let's start a Project! Hire Me.`,
   title5: `
-    I'm open to any communication! Feel free to conctac me any convenient way! I'm
+    I'm open to any communication! Feel free to conctact me any convenient way! I'm
     always interested in hearing about new projects, opportunities and challenges.
   `,
   phone: `+ 56-9-64296221`,
